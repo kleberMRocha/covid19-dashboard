@@ -9,10 +9,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@mdi/font": "^7.0.96",
     "apexcharts": "^3.36.3",
     "axios": "^1.1.3",
     "dinero.js": "^2.0.0-alpha.9",
     "lodash": "^4.17.21",
+    "pinia": "^2.0.24",
     "vue": "^3.2.41",
     "vue-apexcharts": "^1.6.2",
     "vuetify": "^3.0.1"

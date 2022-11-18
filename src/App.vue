@@ -1,11 +1,23 @@
 <script setup lang="ts">
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
-import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <v-app id="inspire">
+  <v-app>
+    <v-app-bar
+      app
+      extended
+    >
+      <v-app-bar-nav-icon></v-app-bar-nav-icon>
+
+      <v-toolbar-title>Application</v-toolbar-title>
+
+      <v-spacer></v-spacer>
+
+      <v-btn icon>
+        <v-icon>mdi-dots-vertical</v-icon>
+      </v-btn>
+    </v-app-bar>
+
     <v-main>
       <v-container>
         <v-row>
@@ -14,22 +26,12 @@ import HelloWorld from './components/HelloWorld.vue'
             :key="n"
             cols="4"
           >
-            <v-card height="200"></v-card>
+            <v-card height="100"></v-card>
           </v-col>
         </v-row>
       </v-container>
     </v-main>
   </v-app>
-   
-  <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
-  </div>
-  <HelloWorld msg="Vite + Vue" />
 </template>
 
 <style scoped>
