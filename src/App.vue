@@ -1,12 +1,5 @@
 <script setup lang="ts">
-import { storeToRefs } from 'pinia';
 import NavbarDashboarVue from './components/NavbarDashboar.vue';
-import { useCounterStore } from './store';
-
-const { increment } = useCounterStore();
-const { count } = storeToRefs(useCounterStore());
-
-
 </script>
 
 <template>
@@ -15,9 +8,7 @@ const { count } = storeToRefs(useCounterStore());
     <v-main>
       <v-container>
         <v-row>
-          {{count}}
           <v-col v-for="n in 24" :key="n" cols="4">
-            <button @click="increment">+</button>
             <v-card height="100"></v-card>
           </v-col>
         </v-row>
