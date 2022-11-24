@@ -324,6 +324,11 @@ csstype@^2.6.8:
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-2.6.21.tgz#2efb85b7cc55c80017c66a5ad7cbd931fda3a90e"
   integrity sha512-Z1PhmomIfypOpoMjRQB70jfvy/wxT50qW08YXO5lMIJkrdq4yOTR+AW7FqutScmB9NkLwxo+jU+kZLbofZZq/w==
 
+dayjs@^1.11.6:
+  version "1.11.6"
+  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.11.6.tgz#2e79a226314ec3ec904e3ee1dd5a4f5e5b1c7afb"
+  integrity sha512-zZbY5giJAinCG+7AGaw0wIhNZ6J8AhWuSXKvuc1KAyMiRsvGQWqh4L+MomvhdAYjN+lqvVCMq1I41e3YHvXkyQ==
+
 de-indent@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/de-indent/-/de-indent-1.0.2.tgz#b2038e846dc33baa5796128d0804b455b8c1e21d"
@@ -939,6 +944,11 @@ vue-apexcharts@^1.6.2:
   version "1.6.2"
   resolved "https://registry.yarnpkg.com/vue-apexcharts/-/vue-apexcharts-1.6.2.tgz#0547826067f97e8ea67ca9423e524eb6669746ad"
   integrity sha512-9HS3scJwWgKjmkcWIf+ndNDR0WytUJD8Ju0V2ZYcjYtlTLwJAf2SKUlBZaQTkDmwje/zMgulvZRi+MXmi+WkKw==
+
+vue-cli-plugin-dayjs@~0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/vue-cli-plugin-dayjs/-/vue-cli-plugin-dayjs-0.1.2.tgz#0bcca59446617effbb52be1184abb747108e0d14"
+  integrity sha512-D53ETA9KeD5/Yj6YZm07dMefJ9iJZh0yTgJFctg4t+FbUqDRhEKWDpAY86Yjn/HAl0YxUTypUz8hZ4HRTppDPQ==
 
 vue-cli-plugin-vuetify@~2.5.8:
   version "2.5.8"
