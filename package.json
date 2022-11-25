@@ -14,6 +14,7 @@
     "dinero.js": "^2.0.0-alpha.9",
     "lodash": "^4.17.21",
     "pinia": "^2.0.24",
+    "v-calendar": "^3.0.0-alpha.8",
     "vue": "^3.2.41",
     "vue-apexcharts": "^1.6.2",
     "vuetify": "^3.0.1"
